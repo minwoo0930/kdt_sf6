@@ -33,3 +33,14 @@ n4 = 4
 
 print(f'빵의 갯수 : {몫}')
 print(f'남은 빵의 갯수 : {나머지}')
+
+#실습 해답 - 빵 30, 사람 - 4
+bread = 30
+people = 4
+
+몫 = bread // people
+나머지 = bread % people
+
+print("빵의 개수: str(몫)")
+print("남은 빵의 개수: str(나머지)")
+
