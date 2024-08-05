@@ -32,3 +32,21 @@ under_20 = age < 20
 
 print(under_20)
 print(not under_20)
+
+#논리곱
+print(True and True) #True
+print(True and False) #False
+print(False and True) #False
+print(False and False) #False
+
+#논리합
+print(True or True) #True
+print(True or True) #True
+print(True or True) #True
+print(True or True) #False
+
+#논리 부정
+print(not True) #False
+print(not False) #True
+
+
