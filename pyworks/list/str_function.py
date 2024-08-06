@@ -4,7 +4,7 @@
 대문자 변환 - 문자열.upper() , 소문자 변환 - 문자열.lower
 문자열을 잘라서 리스트로 반환 - 문자열. split(구분기호)
 특정한 문자를 변경 - replace(old, new)
-'''
+
 
 
 f = "바나나"
@@ -29,4 +29,11 @@ print(email.split("@"))
 #replace()
 msg = "Hello Python"
 print(msg.replace("Python","C++"))
+'''
 
+# 입력받아서 리스트 만들기
+input_num = input("숫자 입력: ").split(" ")
+numbers = []
+for i in input_num:
+    numbers.append(int(i))
+print(numbers)
