@@ -17,3 +17,11 @@ print(dog2.name)
 # 클래시 변수는 클래스 이름으로 접근
 print(Dog.kind)
 
+dogs =[
+    Dog('멍이'),
+    Dog('해피'),
+    Dog('사랑이')
+]
+
+for dog in dogs:
+    print(dog.name)
