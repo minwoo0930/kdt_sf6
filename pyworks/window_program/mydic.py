@@ -4,10 +4,16 @@ from tkinter import *
 def click():
     try:
         word = entry.get()
-        text.delete(0.0,END)
+        definition = dic[word]
+        text.delete(0.0,END) #앞0-행, 뒤0- 열
+        text.insert(END, dic[word])
+
+
         definition = dic[word]
     except KeyError:
         definition = "단어를 찾을 수 없습니다."
+
+
 
     text.insert(END, definition) # END-최종 입력 지점
 
