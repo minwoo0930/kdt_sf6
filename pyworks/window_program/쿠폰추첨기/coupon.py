@@ -15,7 +15,7 @@ def click():
     # text.insert(END,winner)
 
     winner = set()
-    while len(winner) < 3:
+    while len(winner) < 4:
         name = random.choice(namelist)
         if name not in winner:
             winner.add(name)
